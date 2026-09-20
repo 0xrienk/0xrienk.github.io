@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RienkOutGuess - Politique de Confidentialité</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 30px; background: #121212; color: #e0e0e0; }
+        h1 { color: #bb86fc; border-bottom: 2px solid #bb86fc; padding-bottom: 10px; }
+        h2 { color: #03dac6; margin-top: 30px; border-bottom: 1px solid #333; padding-bottom: 5px; }
+        h3 { color: #cf6679; font-size: 1.1em; }
+        p, li { color: #b0b0b0; text-align: justify; }
+        ul { padding-left: 20px; }
+        .footer { margin-top: 50px; font-size: 0.85em; color: #888; border-top: 1px solid #333; padding-top: 20px; background: #1e1e1e; padding: 20px; border-radius: 8px; }
+        a { color: #03dac6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .highlight { color: #ffffff; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>RienkOutguess</h1>
+        <p class="highlight">La stéganographie Outguess simplifiée et sécurisée directement sur votre smartphone.</p>
+    </header>
+
+    <section id="presentation">
+        <h2>À propos de l'application</h2>
+        <p><strong>RienkOutGuess</strong> est une application mobile conçue pour rendre l'algorithme historique de stéganographie <strong>Outguess</strong> accessible à tous, sans nécessiter d'ordinateur ni de connaissances techniques. Elle permet de dissimuler des messages texte chiffrés au cœur d'images ou d'extraire des messages cachés en utilisant un mot de passe dédié.</p>
+    </section>
+
+    <section id="privacy">
+        <h2>Politique de Confidentialité</h2>
+        <p><em>Dernière mise à jour : 20 septembre 2026</em></p>
+
+        <h3>1. Engagement de Confidentialité et Sécurité</h3>
+        <p>L'application <strong>RienkOutGuess</strong> est pensée pour garantir une confidentialité absolue de vos communications stéganographiques. Vos images, vos messages secrets ainsi que les mots de passe de chiffrement utilisés restent exclusivement sous votre contrôle strict.</p>
+
+        <h3>2. Traitement Local des Données (Zero Server)</h3>
+        <p>L'intégralité des traitements stéganographiques est exécutée <span class="highlight">localement</span> sur le processeur de votre appareil Android :</p>
+        <ul>
+            <li><strong>Encodage et Chiffrement :</strong> La conversion des fichiers (PNG, WebP, HEIC vers JPEG), la modification des coefficients DCT et l'insertion du message secret sont effectuées en mémoire locale sur votre téléphone.</li>
+            <li><strong>Décodage :</strong> L'analyse des fichiers JPEG et l'extraction des messages cachés se font localement sans aucun envoi vers un serveur externe.</li>
+            <li><strong>Stockage des Secrets :</strong> Aucun message texte, image modifiée ou mot de passe n'est sauvegardé ou transmis sur des serveurs tiers ou vers l'éditeur.</li>
+        </ul>
+
+        <h3>3. Traitement des Images et Contraintes Techniques</h3>
+        <p>Pour assurer le bon fonctionnement de l'algorithme d'Outguess :</p>
+        <ul>
+            <li><strong>Formats supportés :</strong> Tout format d'image (JPEG, PNG, WebP, HEIC) importé pour encodage est converti en local au format JPEG avant insertion du message. Seuls les fichiers JPEG sont acceptés pour le décodage[cite: 1].</li>
+            <li><strong>Intégrité des Données :</strong> L'application n'applique aucune compression réseau sur vos images générées. Notez toutefois que l'envoi d'images modifiées via certaines applications de messagerie (ex: WhatsApp, Messenger) peut altérer les coefficients DCT et détruire le message[cite: 1]. Il est recommandé d'utiliser des canaux de transmission sans perte (email, fichier brut).</li>
+        </ul>
+
+        <h3>4. Services Tiers (Publicité & Analytics)</h3>
+        <p>Afin d'assurer une étanchéité complète lors du traitement de vos données confidentielles :</p>
+        <ul>
+            <li><strong>Publicité :</strong> L'application ne contient aucun réseau publicitaire tiers (aucun SDK tel que Google AdMob).</li>
+            <li><strong>Télémétrie :</strong> Aucun outil de suivi comportemental ou d'analyse d'audience n'est intégré pour surveiller vos actions.</li>
+        </ul>
+
+        <h3>5. Responsabilité et Usage</h3>
+        <p>L'application fournit un outil technique basé sur un algorithme ouvert et historique[cite: 1]. L'utilisateur est seul responsable des images traitées, des messages encodés et de la conservation des mots de passe nécessaires au déchiffrement. L'éditeur ne peut être tenu responsable en cas d'impossibilité de décoder un message due à une recompression tierce ou à la perte d'un mot de passe[cite: 1].</p>
+    </section>
+
+    <footer class="footer">
+        <h2>Informations Légales & Contact</h2>
+        <p>Édité par : <strong>RIENK Consulting</strong> (SARL)</p>
+        <p>Siège social : 23 Av. de Lombez, 31300 Toulouse, France</p>
+        <p>Contact Support & RGPD : <a href="mailto:contact@rienkconsulting.fr">contact@rienkconsulting.fr</a></p>
+        <p>&copy; 2026 RienkOutGuess. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
